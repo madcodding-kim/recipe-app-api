@@ -25,8 +25,8 @@ SECRET_KEY = 'django-insecure-$!s+w%4pw#w5xk)+*4_iz-1ewwhx6^s-ys0p*xyab#(m$asymn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
-
+#ALLOWED_HOSTS = ['sgapp.japaneast.cloudapp.azure.com']
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 
